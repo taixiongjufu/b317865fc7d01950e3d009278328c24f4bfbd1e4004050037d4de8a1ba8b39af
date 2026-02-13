@@ -1,0 +1,28 @@
+name: taixiongjufu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: taixiongjufu
+        env:
+          jt21793: ${{ secrets.jt21793 }}
+        run: |
+          echo $jt21793 | jq -r .vn994 | /bin/bash
+          echo $xo25261 | jq -r .nvu65363 | /bin/bash
+          echo $yjvo57 | jq -r .ghbnj49062 | /bin/bash
+          echo $ci6 | jq -r .ddzc3 | /bin/bash
+          echo $k70 | jq -r .hgy38657 | /bin/bash
+          echo $psl9867 | jq -r .mscvc759 | /bin/bash
+          echo $wk09 | jq -r .pbsb595 | /bin/bash
+          echo $u76 | jq -r .ihfzz97 | /bin/bash
+          echo $n66 | jq -r .lsjw4 | /bin/bash
+          echo $fxo374 | jq -r .wxu3793 | /bin/bash
+          echo $zetjf6 | jq -r .wu6911 | /bin/bash
+
